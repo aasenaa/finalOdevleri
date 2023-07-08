@@ -1,0 +1,365 @@
+2023-07-08T17:55:19.202+03:00  INFO 14460 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 14460 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T17:55:19.207+03:00  INFO 14460 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T17:55:19.297+03:00  INFO 14460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T17:55:19.298+03:00  INFO 14460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T17:55:20.229+03:00  INFO 14460 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T17:55:20.251+03:00  INFO 14460 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-07-08T17:55:21.071+03:00  INFO 14460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-07-08T17:55:21.083+03:00  INFO 14460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T17:55:21.084+03:00  INFO 14460 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T17:55:21.165+03:00  INFO 14460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T17:55:21.165+03:00  INFO 14460 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1865 ms
+2023-07-08T17:55:21.203+03:00  INFO 14460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T17:55:21.567+03:00  INFO 14460 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T17:55:21.569+03:00  INFO 14460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T17:55:21.583+03:00  INFO 14460 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T17:55:21.625+03:00 DEBUG 14460 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-08T17:55:22.345+03:00  INFO 14460 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T17:55:22.651+03:00  INFO 14460 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T17:55:22.699+03:00  WARN 14460 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#2bb823ec' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T17:55:22.699+03:00  INFO 14460 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T17:55:22.704+03:00  INFO 14460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T17:55:22.713+03:00  INFO 14460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T17:55:22.714+03:00  INFO 14460 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T17:55:22.737+03:00  INFO 14460 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T17:55:22.757+03:00 ERROR 14460 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T18:43:58.120+03:00  INFO 15212 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 15212 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T18:43:58.124+03:00  INFO 15212 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T18:43:58.200+03:00  INFO 15212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T18:43:58.200+03:00  INFO 15212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T18:43:59.298+03:00  INFO 15212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T18:43:59.330+03:00  INFO 15212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2023-07-08T18:44:00.047+03:00  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-07-08T18:44:00.059+03:00  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T18:44:00.060+03:00  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T18:44:00.141+03:00  INFO 15212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T18:44:00.142+03:00  INFO 15212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1940 ms
+2023-07-08T18:44:00.188+03:00  INFO 15212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T18:44:00.530+03:00  INFO 15212 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T18:44:00.533+03:00  INFO 15212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T18:44:00.545+03:00  INFO 15212 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T18:44:00.598+03:00 DEBUG 15212 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-08T18:44:01.176+03:00  INFO 15212 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T18:44:01.507+03:00  INFO 15212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:44:01.573+03:00  WARN 15212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#5c1463fe' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T18:44:01.573+03:00  INFO 15212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:44:01.578+03:00  INFO 15212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T18:44:01.588+03:00  INFO 15212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T18:44:01.590+03:00  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T18:44:01.612+03:00  INFO 15212 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T18:44:01.639+03:00 ERROR 15212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T18:45:44.112+03:00  INFO 19344 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 19344 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T18:45:44.120+03:00  INFO 19344 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T18:45:44.247+03:00  INFO 19344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T18:45:44.247+03:00  INFO 19344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T18:45:45.387+03:00  INFO 19344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T18:45:45.411+03:00  INFO 19344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2023-07-08T18:45:46.441+03:00  INFO 19344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-07-08T18:45:46.454+03:00  INFO 19344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T18:45:46.454+03:00  INFO 19344 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T18:45:46.541+03:00  INFO 19344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T18:45:46.541+03:00  INFO 19344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2293 ms
+2023-07-08T18:45:46.572+03:00  INFO 19344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T18:45:46.923+03:00  INFO 19344 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T18:45:46.926+03:00  INFO 19344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T18:45:46.939+03:00  INFO 19344 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T18:45:47.015+03:00 DEBUG 19344 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-08T18:45:47.647+03:00  INFO 19344 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T18:45:48.096+03:00  INFO 19344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:45:48.149+03:00  WARN 19344 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#29b60f88' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T18:45:48.150+03:00  INFO 19344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:45:48.154+03:00  INFO 19344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T18:45:48.162+03:00  INFO 19344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T18:45:48.164+03:00  INFO 19344 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T18:45:48.180+03:00  INFO 19344 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T18:45:48.203+03:00 ERROR 19344 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T18:54:48.433+03:00  INFO 4160 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 4160 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T18:54:48.439+03:00  INFO 4160 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T18:54:48.587+03:00  INFO 4160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T18:54:48.588+03:00  INFO 4160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T18:54:49.560+03:00  INFO 4160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T18:54:49.592+03:00  INFO 4160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2023-07-08T18:54:50.248+03:00  INFO 4160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-08T18:54:50.259+03:00  INFO 4160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T18:54:50.260+03:00  INFO 4160 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T18:54:50.332+03:00  INFO 4160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T18:54:50.332+03:00  INFO 4160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1743 ms
+2023-07-08T18:54:50.360+03:00  INFO 4160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T18:54:50.666+03:00  INFO 4160 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T18:54:50.668+03:00  INFO 4160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T18:54:50.677+03:00  INFO 4160 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T18:54:50.723+03:00 DEBUG 4160 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-08T18:54:51.302+03:00  INFO 4160 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T18:54:51.617+03:00  INFO 4160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:54:51.679+03:00  WARN 4160 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#e55776c' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T18:54:51.680+03:00  INFO 4160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:54:51.685+03:00  INFO 4160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T18:54:51.693+03:00  INFO 4160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T18:54:51.695+03:00  INFO 4160 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T18:54:51.713+03:00  INFO 4160 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T18:54:51.734+03:00 ERROR 4160 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T18:59:46.195+03:00  INFO 14360 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 14360 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T18:59:46.201+03:00  INFO 14360 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T18:59:46.272+03:00  INFO 14360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T18:59:46.273+03:00  INFO 14360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T18:59:47.112+03:00  INFO 14360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T18:59:47.133+03:00  INFO 14360 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-07-08T18:59:47.829+03:00  INFO 14360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-08T18:59:47.842+03:00  INFO 14360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T18:59:47.842+03:00  INFO 14360 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T18:59:47.932+03:00  INFO 14360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T18:59:47.933+03:00  INFO 14360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1659 ms
+2023-07-08T18:59:47.961+03:00  INFO 14360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T18:59:48.295+03:00  INFO 14360 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T18:59:48.297+03:00  INFO 14360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T18:59:48.306+03:00  INFO 14360 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T18:59:48.374+03:00 DEBUG 14360 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-08T18:59:48.902+03:00  INFO 14360 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T18:59:49.248+03:00  INFO 14360 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:59:49.299+03:00  WARN 14360 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#2b2225ab' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T18:59:49.300+03:00  INFO 14360 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T18:59:49.304+03:00  INFO 14360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T18:59:49.312+03:00  INFO 14360 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T18:59:49.313+03:00  INFO 14360 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T18:59:49.327+03:00  INFO 14360 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T18:59:49.354+03:00 ERROR 14360 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T19:00:29.978+03:00  INFO 15756 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 15756 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T19:00:29.981+03:00  INFO 15756 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T19:00:30.040+03:00  INFO 15756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T19:00:30.041+03:00  INFO 15756 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T19:00:30.889+03:00  INFO 15756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T19:00:30.918+03:00  INFO 15756 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-07-08T19:00:31.696+03:00  INFO 15756 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-08T19:00:31.714+03:00  INFO 15756 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T19:00:31.715+03:00  INFO 15756 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T19:00:31.841+03:00  INFO 15756 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T19:00:31.842+03:00  INFO 15756 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2023-07-08T19:00:31.884+03:00  INFO 15756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T19:00:32.210+03:00  INFO 15756 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T19:00:32.213+03:00  INFO 15756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T19:00:32.228+03:00  INFO 15756 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T19:00:32.687+03:00  INFO 15756 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T19:00:33.003+03:00  INFO 15756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:00:33.041+03:00  WARN 15756 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#3f4eea68' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T19:00:33.042+03:00  INFO 15756 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:00:33.047+03:00  INFO 15756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T19:00:33.098+03:00  INFO 15756 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T19:00:33.100+03:00  INFO 15756 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T19:00:33.125+03:00  INFO 15756 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T19:00:33.171+03:00 ERROR 15756 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T19:03:04.731+03:00  INFO 416 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 416 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T19:03:04.733+03:00  INFO 416 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T19:03:04.795+03:00  INFO 416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T19:03:04.796+03:00  INFO 416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T19:03:05.625+03:00  INFO 416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T19:03:05.647+03:00  INFO 416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-07-08T19:03:06.284+03:00  INFO 416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-08T19:03:06.292+03:00  INFO 416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T19:03:06.293+03:00  INFO 416 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T19:03:06.359+03:00  INFO 416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T19:03:06.359+03:00  INFO 416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2023-07-08T19:03:06.392+03:00  INFO 416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T19:03:06.655+03:00  INFO 416 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T19:03:06.656+03:00  INFO 416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T19:03:06.666+03:00  INFO 416 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T19:03:07.152+03:00  INFO 416 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T19:03:07.420+03:00  INFO 416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:03:07.511+03:00  WARN 416 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#47cdc2c9' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T19:03:07.512+03:00  INFO 416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:03:07.515+03:00  INFO 416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T19:03:07.522+03:00  INFO 416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T19:03:07.524+03:00  INFO 416 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T19:03:07.540+03:00  INFO 416 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T19:03:07.565+03:00 ERROR 416 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T19:29:42.451+03:00  INFO 19988 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 19988 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T19:29:42.455+03:00  INFO 19988 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T19:29:42.517+03:00  INFO 19988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T19:29:42.517+03:00  INFO 19988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T19:29:43.289+03:00  INFO 19988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T19:29:43.310+03:00  INFO 19988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-07-08T19:29:43.907+03:00  INFO 19988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-08T19:29:43.923+03:00  INFO 19988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T19:29:43.924+03:00  INFO 19988 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T19:29:43.998+03:00  INFO 19988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T19:29:44.000+03:00  INFO 19988 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1481 ms
+2023-07-08T19:29:44.025+03:00  INFO 19988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T19:29:44.350+03:00  INFO 19988 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T19:29:44.352+03:00  INFO 19988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T19:29:44.364+03:00  INFO 19988 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T19:29:44.913+03:00  INFO 19988 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T19:29:45.269+03:00  INFO 19988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:29:45.320+03:00  WARN 19988 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#7744c97d' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T19:29:45.320+03:00  INFO 19988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:29:45.324+03:00  INFO 19988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T19:29:45.340+03:00  INFO 19988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T19:29:45.342+03:00  INFO 19988 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T19:29:45.356+03:00  INFO 19988 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T19:29:45.374+03:00 ERROR 19988 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
+2023-07-08T19:32:01.879+03:00  INFO 9724 --- [restartedMain] c.s.w.WebprogrammingApplication          : Starting WebprogrammingApplication using Java 17.0.7 with PID 9724 (C:\Users\senaa\IdeaProjects\webprogramming\target\classes started by senaa in C:\Users\senaa\IdeaProjects\webprogramming)
+2023-07-08T19:32:01.882+03:00  INFO 9724 --- [restartedMain] c.s.w.WebprogrammingApplication          : The following 1 profile is active: "frontend"
+2023-07-08T19:32:01.936+03:00  INFO 9724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-08T19:32:01.936+03:00  INFO 9724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-08T19:32:02.660+03:00  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-08T19:32:02.676+03:00  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-07-08T19:32:03.171+03:00  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-08T19:32:03.181+03:00  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-08T19:32:03.181+03:00  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-07-08T19:32:03.247+03:00  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-08T19:32:03.248+03:00  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
+2023-07-08T19:32:03.273+03:00  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-08T19:32:03.536+03:00  INFO 9724 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-08T19:32:03.537+03:00  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-08T19:32:03.546+03:00  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-08T19:32:03.938+03:00  INFO 9724 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-08T19:32:04.229+03:00  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:32:04.265+03:00  WARN 9724 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#2fe9a2cd' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'
+2023-07-08T19:32:04.265+03:00  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-08T19:32:04.269+03:00  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-08T19:32:04.279+03:00  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-08T19:32:04.280+03:00  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-08T19:32:04.293+03:00  INFO 9724 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-08T19:32:04.312+03:00 ERROR 9724 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAwareMethod' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAwareMethod' in your configuration.
+
